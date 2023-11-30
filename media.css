@@ -1,0 +1,139 @@
+@media screen and (min-width:770px) and (max-width:890px){
+  
+  .sem{
+    display: block;
+}
+    .wellfare{
+        display: none;
+    }
+    .welcome h1 {
+        width: 70%;
+        animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 70% }
+      }
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+      }
+      
+}
+@media screen  and (max-width:590px){
+  .wellfare{
+    display: none;
+}
+    .welcome h1 {
+        width: 94%;
+        animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: auto }
+      }
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+      }
+}
+@media screen  and (min-width:320px) and (max-width:770px) {
+  .sem{
+    display: block;
+}
+ .wellfare{
+    display: none;
+}
+    .welcome h1 {
+        width: 111%;
+        animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: auto }
+      }
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+      }
+}
+@media screen and (max-width:426px) {
+  
+  .testimonials .introduction-boxes .box {
+      width: 100%;
+  }
+
+  .footer_part {
+      margin: unset;
+      text-align: center;
+  }
+  .image_part.text-end {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px;
+  }
+ 
+}
+
+
+
+
+@media screen and (min-width:320px) and{
+  
+  .wellfare {
+      display: none;
+  }
+
+  .discription {
+      text-align: center;
+  }
+
+  .testimonials {
+      flex-direction: column;
+  }
+
+  .top {
+      flex-direction: column;
+  }
+
+
+
+  .bottom-des {
+      text-align: center;
+  }
+
+  .row {
+      padding: unset;
+      margin: unset;
+  }
+}
+/* @media screen and (min-width:770px) and (max-width:1000px){
+  .sem{
+    display: block;
+  }
+.wellfare{
+  display: none;
+}
+.welcome h1 {
+  width: ;
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width:  }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+
+}
+} */

@@ -1,0 +1,89 @@
+@media screen and (min-width:320px) and (max-width:570px) {
+
+    .sem{
+        display: block;
+    }
+    .navbar {
+        display: none !important;
+    }
+
+    .bgvideo {
+        height: unset !important;
+    }
+
+    .desk {
+
+        flex-direction: column-reverse;
+        align-items: center !important;
+        text-align: center !important;
+        margin-top: 24%;
+    }
+
+    .dash {
+        margin: auto !important;
+    }
+
+    .ball img {
+
+        margin: 1rem 0;                                                                                                                                                                                                                                          rem 0;
+    }
+
+    .ball {
+        width: 75%;
+    }
+
+    .bat {
+        width: 75%;
+    }
+    /* .about button{
+        width: 46%;
+    } */
+}
+@media screen and (min-width:570PX) and (max-width:715px){
+    .sem{
+        display: block;
+    }
+    .navbar {
+        display: none !important;
+    }
+
+    .bgvideo {
+        height: unset !important;
+    }
+
+    .desk {
+
+        flex-direction: column-reverse;
+        align-items: center !important;
+        text-align: center !important;
+        margin-top: 24%;
+    }
+
+    .dash {
+        margin: auto !important;
+    }
+
+    .ball img {
+
+        margin: 1rem 0;                                                                                                                                                                                                                                           rem 0;
+    }
+
+    .ball {
+        width: 75%;
+    }
+
+    .bat {
+        width: 75%;
+    }
+}
+/* ******************* */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .desk {
+        align-items: center !important;
+    }
+
+    .ball {
+        width: 50%;
+    }
+
+}
